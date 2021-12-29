@@ -33,3 +33,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
+// ## Google map setup
+// - GMap Api key => android\app\src\main\AndroidManifest.xml
+// [<meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR-KEY-HERE"/>]
+// - android/app/build.gradle => minSdkVersion 20
+// - Access permission
+// <uses-permission android:name="android.permission.INTERNET" />
+// <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+// <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+// - Change Compile SDK version => android\app\src\main\AndroidManifest.xml
+// targetSdkVersion 31
+// compileSdkVersion 31
+
